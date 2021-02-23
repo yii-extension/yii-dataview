@@ -395,7 +395,8 @@ abstract class BaseListView extends Widget
             ),
         )
         ->attributes($summaryOptions)
-        ->encode(false);
+        ->encode(false)
+        ->render();
     }
 
     /**
